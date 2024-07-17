@@ -79,30 +79,18 @@ export default function Footer() {
           <div></div>
           <div className="flex flex-wrap justify-around ">
             <div className="flex items-center gap-2">
-              <img
-                src="/social-media/Instagram.png"
-                className="w-8 h-8"
-                alt=""
-              />
+              <img src="/icons/map.svg" className="w-8 h-8" alt="" />
               <h1 className="text-light-white text-xl">Addis Ababa,Ethiopia</h1>
             </div>
             <div className="flex items-center gap-2">
-              <img
-                src="/social-media/Instagram.png"
-                className="w-8 h-8"
-                alt=""
-              />
+              <img src="/icons/phone.svg" className="w-8 h-8" alt="" />
               <h1 className="text-light-white text-xl">
                 {" "}
                 +251234532345/251555434
               </h1>
             </div>
             <div className="flex items-center gap-2">
-              <img
-                src="/social-media/Instagram.png"
-                className="w-8 h-8"
-                alt=""
-              />
+              <img src="/icons/mail.svg" className="w-8 h-8" alt="" />
               <h1 className="text-light-white text-xl">
                 info@winestate@gmail.com
               </h1>
