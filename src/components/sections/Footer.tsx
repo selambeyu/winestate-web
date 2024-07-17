@@ -15,7 +15,7 @@ export default function Footer() {
                   alt=""
                 />
                 <img
-                  src="/social-media/Linkedin.png"
+                  src="/social-media/LinkedIn.png"
                   className="w-12 h-12"
                   alt=""
                 />
