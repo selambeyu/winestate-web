@@ -35,25 +35,48 @@ export default function Footer() {
             <div>
               <h1 className="text-gold-yellow mb-4 ">Services</h1>
               <div>
-                <ul className="text-light-white">
-                  <li>Residential Listing </li>
-                  <li>Residential Listing </li>
-                  <li>Residential Listing </li>
+                <ul className="text-light-white leading-8">
+                  <li className="flex justify-between items-center gap-2">
+                    {" "}
+                    <img src="arrow.svg" className="w-6 h-6" alt="" />{" "}
+                    Residential Listing{" "}
+                  </li>
+                  <li className="flex justify-between items-center gap-2">
+                    {" "}
+                    <img src="arrow.svg" className="w-6 h-6" alt="" />{" "}
+                    Residential Listing{" "}
+                  </li>
+                  <li className="flex justify-between items-center gap-2">
+                    {" "}
+                    <img src="arrow.svg" className="w-6 h-6" alt="" />{" "}
+                    Residential Listing{" "}
+                  </li>
                 </ul>
               </div>
             </div>
             <div>
               <h1 className="text-gold-yellow mb-4 ">About Us</h1>
               <div>
-                <ul className="text-light-white">
-                  <li>About Us</li>
-                  <li>Services</li>
-                  <li>Testimonals</li>
-                  <li>Common Questions</li>
+                <ul className="text-light-white leading-8">
+                  <li className="flex items-center gap-2 ">
+                    <img src="Vector.svg" className="w-6 h-6" alt="" /> About Us
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <img src="Vector.svg" className="w-6 h-6" alt="" /> Services
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <img src="Vector.svg" className="w-6 h-6" alt="" />{" "}
+                    Testimonals
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <img src="Vector.svg" className="w-6 h-6" alt="" /> Common
+                    Questions
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
+          <div></div>
           <div className="flex flex-wrap justify-around ">
             <div className="flex items-center gap-2">
               <img
@@ -61,7 +84,7 @@ export default function Footer() {
                 className="w-8 h-8"
                 alt=""
               />
-              <h1 className="text-light-white">Address</h1>
+              <h1 className="text-light-white text-xl">Addis Ababa,Ethiopia</h1>
             </div>
             <div className="flex items-center gap-2">
               <img
@@ -69,7 +92,10 @@ export default function Footer() {
                 className="w-8 h-8"
                 alt=""
               />
-              <h1 className="text-light-white"> +251234532345/251555434</h1>
+              <h1 className="text-light-white text-xl">
+                {" "}
+                +251234532345/251555434
+              </h1>
             </div>
             <div className="flex items-center gap-2">
               <img
@@ -77,7 +103,9 @@ export default function Footer() {
                 className="w-8 h-8"
                 alt=""
               />
-              <h1 className="text-light-white">info@winestate@gmail.com</h1>
+              <h1 className="text-light-white text-xl">
+                info@winestate@gmail.com
+              </h1>
             </div>
           </div>
         </div>
