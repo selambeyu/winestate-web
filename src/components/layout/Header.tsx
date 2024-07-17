@@ -65,12 +65,14 @@ export default function Header() {
             >
               Testimonials
             </a>
-            <a
-              href="#contactus"
-              className="text-sm font-semibold leading-6 text-gray-100 hover:text-white"
-            >
-              Contact Us
-            </a>
+            <button className="rounded-full p-2 bg-yello-orange text-[#335782] w-32 ">
+              <a
+                href="#contactus"
+                className="text-sm font-semibold leading-6 hover:text-white"
+              >
+                Contact Us
+              </a>
+            </button>
           </div>
         </nav>
         {/* Mobile menu */}
@@ -139,13 +141,24 @@ export default function Header() {
                     >
                       Testimonials
                     </a>
-                    <a
+                    <button
+                      onClick={() => setMobileMenuOpen(false)}
+                      className="rounded-full p-2 bg-yello-orange text-[#335782] w-32 "
+                    >
+                      <a
+                        href="#contactus"
+                        className="text-sm font-semibold leading-6 hover:text-white"
+                      >
+                        Contact Us
+                      </a>
+                    </button>
+                    {/* <a
                       href="#contactus"
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                      onClick={() => setMobileMenuOpen(false)}
+                    
                     >
                       Contact Us
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
